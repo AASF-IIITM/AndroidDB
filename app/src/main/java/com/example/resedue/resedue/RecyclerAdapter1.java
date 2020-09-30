@@ -46,7 +46,12 @@ public class RecyclerAdapter1 extends RecyclerView.Adapter<RecyclerAdapter1.MyHo
         final users mylist = list.get(position);
         holder.name.setText("Name  :  "+mylist.getName());
         holder.age.setText("Age  :  "+mylist.getAge());
-        holder.time.setText("TimeStamp.  :  "+mylist.getTimestamp());
+        
+	    long timestamp = Long.parseLong(mylist.getTimestamp());
+        Calendar cal = Calendar.getInstance(Locale.ENGLISH);
+        cal.setTimeInMillis(timestamp * 1000);
+        String date = DateFormat.format("dd-MM-yyyy", cal).toString();
+        holder.time.setText("Date  :  "+date);
         //String url=mylist.getUrl();
 
 //        set(url);
