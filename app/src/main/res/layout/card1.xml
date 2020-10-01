@@ -10,7 +10,7 @@
     xmlns:cardview="http://schemas.android.com/apk/res-auto"
     cardview:cardElevation="0dp"
     cardview:cardCornerRadius="0dp"
-    android:layout_marginBottom="4dp">
+    android:layout_marginBottom="5dp">
 
     <android.support.v7.widget.CardView
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -18,10 +18,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        cardview:cardBackgroundColor="#999999FF"
+        android:padding="4dp"
+        cardview:cardBackgroundColor="#1E3D59"
         android:layout_marginTop="3dp"
-        cardview:cardCornerRadius="15dp"
-        cardview:cardElevation="0dp">
+        cardview:cardCornerRadius="10dp"
+        cardview:cardElevation="5dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -32,21 +33,25 @@
                 android:id="@+id/name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textAlignment="center"
+                android:textAlignment="start"
+                android:textColor="#F5F0E1"
+                android:textStyle="bold"
                 android:textSize="18dp"/>
 
             <TextView
                 android:id="@+id/age"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textAlignment="center"
+                android:textColor="#FF6E40"
+                android:textAlignment="start"
                 android:textSize="18dp" />
 
             <TextView
                 android:id="@+id/time"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textAlignment="center"
+                android:textColor="#FF6E40"     
+                android:textAlignment="start"
                 android:textSize="18dp" />
 
         </LinearLayout>
