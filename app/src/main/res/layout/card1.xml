@@ -33,7 +33,7 @@
                 android:id="@+id/name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textAlignment="start"
+                android:gravity="left"
                 android:textColor="#F5F0E1"
                 android:textStyle="bold"
                 android:textSize="18dp"/>
@@ -43,7 +43,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#FF6E40"
-                android:textAlignment="start"
+                android:gravity="left"
                 android:textSize="18dp" />
 
             <TextView
@@ -51,7 +51,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#FF6E40"     
-                android:textAlignment="start"
+                android:gravity="left"
                 android:textSize="18dp" />
 
         </LinearLayout>
