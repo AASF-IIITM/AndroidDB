@@ -36,7 +36,8 @@
                 android:gravity="left"
                 android:textColor="#F5F0E1"
                 android:textStyle="bold"
-                android:textSize="18dp"/>
+                android:padding="3dp"
+                android:textSize="18sp"/>
 
             <TextView
                 android:id="@+id/age"
@@ -44,7 +45,8 @@
                 android:layout_height="wrap_content"
                 android:textColor="#FF6E40"
                 android:gravity="left"
-                android:textSize="18dp" />
+                android:padding="3dp"
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/time"
@@ -52,7 +54,8 @@
                 android:layout_height="wrap_content"
                 android:textColor="#FF6E40"     
                 android:gravity="left"
-                android:textSize="18dp" />
+                android:padding="3dp"
+                android:textSize="18sp" />
 
         </LinearLayout>
 
